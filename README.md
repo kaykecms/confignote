@@ -5,16 +5,16 @@ Deixa um notebook com Kubuntu do jeito do dono: tema, painéis, conexões e prog
 Num terminal (Ctrl+Alt+T):
 
 ```sh
-wget kaykecms.github.io/cn/ConfigNote.AppImage
+wget kaykecms.github.io/confignote
 ```
 
-Ele baixa pra pasta pessoal; é só dar dois cliques no `ConfigNote.AppImage` (o KDE libera a execução sozinho).
-O mesmo link funciona no navegador.
+Ele baixa o arquivo `confignote` pra pasta pessoal. É só dar dois cliques nele: o KDE reconhece que é um AppImage
+e libera a execução sozinho.
 
-Ou, pra baixar em `~/Aplicativos` e já abrir: `curl -L kaykecms.github.io/cn | sh`. Depois de aberto uma vez, ele
-aparece no menu como **Config Note**.
-Na primeira vez num notebook recém-formatado, ele pede a senha pra instalar o que falta pra abrir.
+No navegador, use `kaykecms.github.io/confignote/ConfigNote.AppImage` (o link curto, aberto no navegador, mostra o
+arquivo como texto em vez de baixar).
 
-Aqui fica só o app pronto. O código é de outro repositório, privado.
+Pra baixar em `~/Aplicativos` e já abrir: `curl -L kaykecms.github.io/confignote/baixar.sh | sh`. Depois de aberto uma
+vez, ele aparece no menu como **Config Note**.
 
-O `index.html` é uma cópia do `baixar.sh`: é ele que o link curto entrega.
+O `index.html` é o próprio AppImage: é o que o link curto entrega. O código fica em outro repositório, privado.

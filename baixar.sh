@@ -1,9 +1,9 @@
 #!/bin/sh
 # Baixa o Config Note pra ~/Aplicativos e abre. Num terminal:
-#   curl -sL kaykecms.github.io/cn | sh
-# (sem curl: wget -qO- kaykecms.github.io/cn | sh)
+#   curl -L kaykecms.github.io/confignote/baixar.sh | sh
+# (sem curl: wget -qO- kaykecms.github.io/confignote/baixar.sh | sh)
 set -eu
-URL=https://github.com/kaykecms/cn/releases/latest/download/Config-Note.AppImage
+URL=https://github.com/kaykecms/confignote/releases/latest/download/Config-Note.AppImage
 D="$HOME/Aplicativos"
 A="$D/Config-Note.AppImage"
 
